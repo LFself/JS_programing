@@ -1,4 +1,3 @@
-/*Pig Latin 把在前面的辅音字母移到末尾，直到首字母为元音，并在结尾加  上"ay"。 如果首字母为元音，就只在结尾加"way"。*/
 function translatePigLatin(str) {
   var vowelEle=/[aeiou]/gi;  //正则表达式表示含aeiou的变量
   if(str[0].match(vowelEle))  //判断首字符是否为元音，用match函数
